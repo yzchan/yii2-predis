@@ -1,0 +1,36 @@
+{
+    "name": "yzchan/yii2-predis",
+    "description": "yii2 predis adapter",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chenyuzou",
+            "email": "chenyuzou@qq.com",
+            "homepage": "https://github.com/yzchan/yii2-predis"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+        "predis/predis": "^2.0",
+        "yidas/yii2-bower-asset": "2.0.13.1",
+        "yiisoft/yii2": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yzchan\\Yii2Predis\\": "src/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    }
+}
