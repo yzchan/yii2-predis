@@ -13,7 +13,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0",
-        "predis/predis": "^2.0",
+        "predis/predis": "^1.1",
         "yidas/yii2-bower-asset": "2.0.13.1",
         "yiisoft/yii2": "^2.0"
     },
